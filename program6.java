@@ -7,8 +7,8 @@ public class program6 {
         System.out.print("Enter a decimal number: ");
         int num = scanner.nextInt();
         
-        System.out.println("Binary: " + Integer.toBinaryString(num));
-        System.out.println("Octal: " + Integer.toOctalString(num));
+        System.out.println("Binary representation: " + Integer.toBinaryString(num));
+        System.out.println("Octal representaion: " + Integer.toOctalString(num));
 
         scanner.close();
     }
